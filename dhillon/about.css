@@ -1,0 +1,1065 @@
+/*! CSS Used from: https://dhillonpaving.ca/beta/wp-content/themes/dhillonpaving/css/bootstrap.min.css */
+a {
+    background-color: transparent;
+}
+
+a:active,
+a:hover {
+    outline: 0;
+}
+
+img {
+    border: 0;
+}
+
+@media print {
+
+    *,
+    :after,
+    :before {
+        color: #000 !important;
+        text-shadow: none !important;
+        background: 0 0 !important;
+        -webkit-box-shadow: none !important;
+        box-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " ("attr(href) ")";
+    }
+
+    img {
+        page-break-inside: avoid;
+    }
+
+    img {
+        max-width: 100% !important;
+    }
+
+    h2,
+    p {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2 {
+        page-break-after: avoid;
+    }
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+:after,
+:before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+a {
+    color: #337ab7;
+    text-decoration: none;
+}
+
+a:focus,
+a:hover {
+    color: #23527c;
+    text-decoration: underline;
+}
+
+a:focus {
+    outline: 5px auto -webkit-focus-ring-color;
+    outline-offset: -2px;
+}
+
+img {
+    vertical-align: middle;
+}
+
+h2 {
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.1;
+    color: inherit;
+}
+
+h2 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+p {
+    margin: 0 0 10px;
+}
+
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+@media (min-width:768px) {
+    .container {
+        width: 750px;
+    }
+}
+
+@media (min-width:992px) {
+    .container {
+        width: 970px;
+    }
+}
+
+@media (min-width:1200px) {
+    .container {
+        width: 1170px;
+    }
+}
+
+.container:after,
+.container:before {
+    display: table;
+    content: " ";
+}
+
+.container:after {
+    clear: both;
+}
+
+/*! CSS Used from: https://dhillonpaving.ca/beta/wp-content/themes/dhillonpaving/css/styles.css */
+* {
+    border: none;
+    margin: 0;
+    padding: 0;
+    vertical-align: baseline;
+    outline: none !important;
+    box-sizing: border-box;
+}
+
+img {
+    height: auto;
+    max-width: 100%;
+    user-drag: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+
+h2 {
+    margin: 0;
+    color: #060606;
+}
+
+a {
+    color: #0079be;
+}
+
+a:hover,
+a:focus {
+    color: #252424;
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 0 15px;
+    width: 100%;
+}
+
+::-webkit-input-placeholder {
+    color: #808080;
+    opacity: 1;
+}
+
+:-moz-placeholder {
+    color: #808080;
+    opacity: 1;
+}
+
+::-moz-placeholder {
+    color: #808080;
+    opacity: 1;
+}
+
+:-ms-input-placeholder {
+    color: #808080;
+    opacity: 1;
+}
+
+a {
+    transition: all 0.3s linear 0s;
+    -moz-transition: all 0.3s linear 0s;
+    -webkit-transition: all 0.3s linear 0s;
+    -ms-transition: all 0.3s linear 0s;
+    -o-transition: all 0.3s linear 0s;
+}
+
+h2 em {
+    display: block;
+    width: 100%;
+    overflow: hidden;
+    height: 3px;
+    position: relative;
+    margin: 20px 0 15px;
+}
+
+h2 em:before {
+    display: block;
+    width: 108px;
+    height: 3px;
+    content: "";
+    background: #fccb3b;
+    position: absolute;
+}
+
+.about-us-wrap {
+    display: block;
+    width: 100%;
+    overflow: hidden;
+    padding: 0px 0 50px;
+    position: relative;
+}
+
+.about-us-wrap h2 {
+    display: block;
+    width: 100%;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 26px;
+}
+
+.about-us-wrap p {
+    color: #0b0b0b;
+    display: block;
+    width: 100%;
+    line-height: 28px;
+    padding: 5px 0 15px;
+    transition: all ease-in-out 0.2s;
+}
+
+.about-us-wrap p:last-child {
+    padding-bottom: 10px;
+}
+
+.about-us-wrap .allBox {
+    display: flex;
+    flex-wrap: wrap;
+    z-index: 2;
+    justify-content: space-between;
+}
+
+.about-us-wrap .allBox .box {
+    -ms-flex: 0 0 51%;
+    flex: 0 0 51%;
+    max-width: 51%;
+    transition: all ease-in-out 0.2s;
+    text-align: left;
+    padding: 10px 0 0px 35px;
+}
+
+.about-us-wrap .allBox .box.photo {
+    padding: 0px 0px;
+    -ms-flex: 0 0 49%;
+    flex: 0 0 49%;
+    max-width: 49%;
+}
+
+.Video-box {
+    float: left;
+    width: 100%;
+    position: relative;
+}
+
+.Video-box img {
+    width: 100%;
+}
+
+.Video-box a {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
+.Video-box a:after {
+    content: "";
+    background: url(https://dhillonpaving.ca/beta/wp-content/themes/dhillonpaving/img/play-icon.png) 0 0 no-repeat;
+    width: 46px;
+    height: 46px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -23px 0 0 -23px;
+}
+
+.Video-box a:hover:after {
+    opacity: 0.5;
+}
+
+@media only screen and (max-width:1024px) {
+    .about-us-wrap .allBox .box {
+        padding: 0px 0 0px 35px;
+    }
+
+    .about-us-wrap {
+        padding: 0px 0 30px;
+    }
+}
+
+@media only screen and (max-width:991px) {
+    h2 em {
+        margin: 15px 0 10px;
+    }
+}
+
+@media only screen and (max-width:767px) {
+    .about-us-wrap {
+        padding: 0px 0 0px;
+    }
+
+    .about-us-wrap .allBox .box,
+    .about-us-wrap .allBox .box.photo {
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+        padding: 10px 0;
+    }
+
+    .about-us-wrap h2 {
+        font-size: 20px;
+    }
+}
+
+/*! CSS Used from: https://dhillonpaving.ca/beta/wp-includes/css/dist/block-library/style.min.css?ver=5.9.3 ; media=all */
+@media all {
+    h2 {
+        overflow-wrap: break-word;
+    }
+
+    p {
+        overflow-wrap: break-word;
+    }
+}
+
+
+.responsive-map {
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    position: relative;
+    height: 0;
+}
+
+.responsive-map iframe {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
+/*! CSS Used from: https://dhillonpaving.ca/beta/wp-content/themes/dhillonpaving/css/bootstrap.min.css */
+figure {
+    display: block;
+}
+
+a {
+    background-color: transparent;
+}
+
+a:active,
+a:hover {
+    outline: 0;
+}
+
+img {
+    border: 0;
+}
+
+figure {
+    margin: 1em 40px;
+}
+
+button {
+    margin: 0;
+    font: inherit;
+    color: inherit;
+}
+
+button {
+    overflow: visible;
+}
+
+button {
+    text-transform: none;
+}
+
+button {
+    -webkit-appearance: button;
+    cursor: pointer;
+}
+
+button::-moz-focus-inner {
+    padding: 0;
+    border: 0;
+}
+
+@media print {
+
+    *,
+    :after,
+    :before {
+        color: #000 !important;
+        text-shadow: none !important;
+        background: 0 0 !important;
+        -webkit-box-shadow: none !important;
+        box-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " ("attr(href) ")";
+    }
+
+    img {
+        page-break-inside: avoid;
+    }
+
+    img {
+        max-width: 100% !important;
+    }
+
+    h2,
+    h3,
+    p {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+:after,
+:before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+button {
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+
+a {
+    color: #337ab7;
+    text-decoration: none;
+}
+
+a:focus,
+a:hover {
+    color: #23527c;
+    text-decoration: underline;
+}
+
+a:focus {
+    outline: 5px auto -webkit-focus-ring-color;
+    outline-offset: -2px;
+}
+
+figure {
+    margin: 0;
+}
+
+img {
+    vertical-align: middle;
+}
+
+h2,
+h3 {
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.1;
+    color: inherit;
+}
+
+h2,
+h3 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+h3 {
+    font-size: 24px;
+}
+
+p {
+    margin: 0 0 10px;
+}
+
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+@media (min-width:768px) {
+    .container {
+        width: 750px;
+    }
+}
+
+@media (min-width:992px) {
+    .container {
+        width: 970px;
+    }
+}
+
+@media (min-width:1200px) {
+    .container {
+        width: 1170px;
+    }
+}
+
+.container:after,
+.container:before {
+    display: table;
+    content: " ";
+}
+
+.container:after {
+    clear: both;
+}
+
+/*! CSS Used from: https://dhillonpaving.ca/beta/wp-content/themes/dhillonpaving/css/styles.css */
+* {
+    border: none;
+    margin: 0;
+    padding: 0;
+    vertical-align: baseline;
+    outline: none !important;
+    box-sizing: border-box;
+}
+
+img {
+    height: auto;
+    max-width: 100%;
+    user-drag: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+
+h2,
+h3 {
+    margin: 0;
+    color: #060606;
+}
+
+a {
+    color: #0079be;
+}
+
+a:hover,
+a:focus {
+    color: #252424;
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 0 15px;
+    width: 100%;
+}
+
+::-webkit-input-placeholder {
+    color: #808080;
+    opacity: 1;
+}
+
+:-moz-placeholder {
+    color: #808080;
+    opacity: 1;
+}
+
+::-moz-placeholder {
+    color: #808080;
+    opacity: 1;
+}
+
+:-ms-input-placeholder {
+    color: #808080;
+    opacity: 1;
+}
+
+button::-moz-focus-inner {
+    padding: 0;
+    border: 0;
+}
+
+a {
+    transition: all 0.3s linear 0s;
+    -moz-transition: all 0.3s linear 0s;
+    -webkit-transition: all 0.3s linear 0s;
+    -ms-transition: all 0.3s linear 0s;
+    -o-transition: all 0.3s linear 0s;
+}
+
+h2 em {
+    display: block;
+    width: 100%;
+    overflow: hidden;
+    height: 3px;
+    position: relative;
+    margin: 20px 0 15px;
+}
+
+h2 em:before {
+    display: block;
+    width: 108px;
+    height: 3px;
+    content: "";
+    background: #fccb3b;
+    position: absolute;
+}
+
+.provide-wrap {
+    display: block;
+    width: 100%;
+    text-align: center;
+    padding: 50px 0 30px;
+    background: #f2f3f7;
+    overflow: hidden;
+}
+
+.provide-wrap h2 {
+    display: block;
+    width: 100%;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 26px;
+    letter-spacing: 1.4px;
+    color: #000;
+}
+
+.provide-wrap h2 em:before {
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.provide-wrap .allBox {
+    display: flex;
+    width: 100%;
+    padding: 30px 0px 0px;
+}
+
+.provide-wrap .allBox .box {
+    width: 100%;
+    display: block;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+
+.provide-wrap .allBox .box figure img {
+    width: 100%;
+    transition: all ease-in-out 0.2s;
+    vertical-align: top;
+    opacity: 0.1;
+}
+
+.provide-wrap .allBox .box figure i {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: auto;
+    text-align: center;
+    height: auto;
+    transform: translate(-50%, -50%);
+}
+
+.provide-wrap .allBox .box figure i img {
+    opacity: 1 !important;
+    width: auto;
+}
+
+.provide-wrap .allBox .box figure {
+    max-width: 192px;
+    display: inline-block;
+    border-radius: 200px;
+    border: solid 14px #0079bd;
+    overflow: hidden;
+    background: #0079bd;
+    position: relative;
+}
+
+.provide-wrap .allBox .box .details {
+    float: left;
+    width: 100%;
+    height: 100%;
+    padding: 15px;
+}
+
+.provide-wrap .allBox .box .details h3 {
+    font-weight: 400;
+    color: #0079be;
+    font-size: 18px;
+    text-transform: uppercase;
+    padding: 0;
+}
+
+.provide-wrap .allBox .box .details p {
+    color: #0b0b0b;
+    line-height: 28px;
+    font-weight: 400;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+.provide-wrap .allBox .box .details span {
+    color: #fccb3b;
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 400;
+}
+
+.provide-wrap .allBox .box:hover figure img {
+    opacity: 0.0;
+}
+
+.about-us-wrap+.provide-wrap .allBox .box figure img {
+    opacity: 1 !important;
+}
+
+.about-us-wrap+.provide-wrap .allBox .box figure i {
+    display: none !important;
+}
+
+.about-us-wrap+.provide-wrap .allBox .box:hover figure img {
+    opacity: 0.8 !important;
+}
+
+.about-us-wrap+.provide-wrap .allBox .box figure {
+    max-width: 230px;
+}
+
+@media only screen and (max-width:1024px) {
+    .provide-wrap {
+        padding: 40px 0 20px;
+    }
+}
+
+@media only screen and (max-width:991px) {
+    h2 em {
+        margin: 15px 0 10px;
+    }
+}
+
+@media only screen and (max-width:767px) {
+    .provide-wrap h2 {
+        font-size: 20px;
+        letter-spacing: 0;
+    }
+}
+
+.owl-carousel,
+.owl-carousel .owl-item {
+    -webkit-tap-highlight-color: transparent;
+    position: relative;
+}
+
+.owl-carousel {
+    display: none;
+    width: 100%;
+    z-index: 1;
+}
+
+.owl-carousel .owl-stage {
+    position: relative;
+    -ms-touch-action: pan-Y;
+    touch-action: manipulation;
+    -moz-backface-visibility: hidden;
+}
+
+.owl-carousel .owl-stage:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+}
+
+.owl-carousel .owl-stage-outer {
+    position: relative;
+    overflow: hidden;
+    -webkit-transform: translate3d(0, 0, 0);
+}
+
+.owl-carousel .owl-item {
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    -ms-backface-visibility: hidden;
+    -webkit-transform: translate3d(0, 0, 0);
+    -moz-transform: translate3d(0, 0, 0);
+    -ms-transform: translate3d(0, 0, 0);
+}
+
+.owl-carousel .owl-item {
+    min-height: 1px;
+    float: left;
+    -webkit-backface-visibility: hidden;
+    -webkit-touch-callout: none;
+}
+
+.owl-carousel .owl-item img {
+    display: block;
+    width: 100%;
+}
+
+.owl-carousel .owl-dots.disabled,
+.owl-carousel .owl-nav.disabled {
+    display: none;
+}
+
+.owl-carousel.owl-loaded {
+    display: block;
+}
+
+.owl-carousel .owl-nav .owl-next,
+.owl-carousel .owl-nav .owl-prev {
+    cursor: pointer;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.owl-carousel .owl-nav button.owl-next,
+.owl-carousel .owl-nav button.owl-prev {
+    color: inherit;
+    border: none;
+    padding: 0 !important;
+    font: inherit;
+}
+
+.owl-carousel.owl-drag .owl-item {
+    -ms-touch-action: pan-y;
+    touch-action: pan-y;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.owl-carousel .owl-nav .owl-prev {
+    width: 30px;
+    height: 70px;
+    position: absolute;
+    left: -40px;
+    top: 50%;
+    z-index: 90;
+    display: inline-block;
+    margin-top: -35px;
+    font-size: 0;
+    cursor: pointer;
+    border-radius: 0;
+    border: 0 !important;
+    background: none !important;
+}
+
+.owl-carousel .owl-nav .owl-prev:before {
+    content: "\f359";
+    font-family: Font Awesome\ 5 Pro;
+    color: #b9b9b9;
+    display: block;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    font-size: 23px;
+    line-height: 70px;
+    height: 100%;
+    width: 100%;
+}
+
+.owl-carousel .owl-nav .owl-next {
+    width: 30px;
+    height: 70px;
+    position: absolute;
+    right: -40px;
+    top: 50%;
+    z-index: 90;
+    display: inline-block;
+    margin-top: -35px;
+    font-size: 0;
+    cursor: pointer;
+    border-radius: 0;
+    border: 0 !important;
+    background: none !important;
+}
+
+.owl-carousel .owl-nav .owl-next:before {
+    content: "\f35a";
+    font-family: Font Awesome\ 5 Pro;
+    color: #b9b9b9;
+    display: block;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    font-size: 23px;
+    line-height: 70px;
+    height: 100%;
+    width: 100%;
+}
+
+.owl-carousel .owl-nav .owl-prev span,
+.owl-carousel .owl-nav .owl-next span {
+    display: none;
+}
+
+.owl-carousel:hover .owl-nav .owl-prev,
+.owl-carousel:hover .owl-nav .owl-next,
+.owl-carousel:hover .owl-nav .owl-prev.disabled,
+.owl-carousel:hover .owl-nav .owl-next.disabled {
+    opacity: 1;
+}
+
+.owl-carousel .owl-nav .owl-prev.disabled,
+.owl-carousel .owl-nav .owl-next.disabled {
+    cursor: not-allowed;
+    border-color: #c8b2de !important;
+}
+
+.owl-carousel .owl-nav .owl-prev.disabled:before,
+.owl-carousel .owl-nav .owl-next.disabled:before,
+.owl-carousel .owl-nav .owl-prev.disabled:hover:before,
+.owl-carousel .owl-nav .owl-next.disabled:hover:before {
+    color: #0079be;
+}
+
+.owl-carousel .owl-nav .owl-prev:hover:before,
+.owl-carousel .owl-nav .owl-next:hover:before {
+    color: #0079be;
+}
+
+.owl-carousel .owl-nav .owl-prev:hover,
+.owl-carousel .owl-nav .owl-next:hover {
+    background-color: none !important;
+    color: #0079be;
+}
+
+@media only screen and (max-width:1024px) {
+
+    .owl-carousel .owl-nav .owl-prev,
+    .owl-carousel .owl-nav .owl-next,
+    .owl-carousel:hover .owl-nav .owl-prev,
+    .owl-carousel:hover .owl-nav .owl-next {
+        opacity: 1;
+    }
+}
+
+@media only screen and (max-width:1199px) {
+    .owl-carousel .owl-nav .owl-next {
+        right: 0px !important;
+    }
+
+    .owl-carousel .owl-nav .owl-prev {
+        left: 0px !important;
+    }
+}
+
+.allBox .owl-next,
+.allBox .owl-prev {
+    display: none !important;
+}
+
+.allBox:hover .owl-next,
+.allBox:hover .owl-prev {
+    display: block !important;
+}
+
+button::-moz-focus-inner {
+    padding: 0;
+    border: 0;
+}
+
+/*! CSS Used from: https://dhillonpaving.ca/beta/wp-includes/css/dist/block-library/style.min.css?ver=5.9.3 ; media=all */
+@media all {
+
+    h2,
+    h3 {
+        overflow-wrap: break-word;
+    }
+
+    p {
+        overflow-wrap: break-word;
+    }
+}
+
+/*! CSS Used fontfaces */
+@font-face {
+    font-family: "Font Awesome 5 Pro";
+    font-style: normal;
+    font-weight: 300;
+    font-display: auto;
+    src: url(https://dhillonpaving.ca/beta/wp-content/themes/dhillonpaving/webfonts/fa-light-300.eot);
+    src: url(https://dhillonpaving.ca/beta/wp-content/themes/dhillonpaving/webfonts/fa-light-300.eot#iefix) format("embedded-opentype"), url(https://dhillonpaving.ca/beta/wp-content/themes/dhillonpaving/webfonts/fa-light-300.woff2) format("woff2"), url(https://dhillonpaving.ca/beta/wp-content/themes/dhillonpaving/webfonts/fa-light-300.woff) format("woff"), url(https://dhillonpaving.ca/beta/wp-content/themes/dhillonpaving/webfonts/fa-light-300.ttf) format("truetype"), url(https://dhillonpaving.ca/beta/wp-content/themes/dhillonpaving/webfonts/fa-light-300.svg#fontawesome) format("svg");
+}
+
+@font-face {
+    font-family: "Font Awesome 5 Pro";
+    font-style: normal;
+    font-weight: 400;
+    font-display: auto;
+    src: url(https://dhillonpaving.ca/beta/wp-content/themes/dhillonpaving/webfonts/fa-regular-400.eot);
+    src: url(https://dhillonpaving.ca/beta/wp-content/themes/dhillonpaving/webfonts/fa-regular-400.eot#iefix) format("embedded-opentype"), url(https://dhillonpaving.ca/beta/wp-content/themes/dhillonpaving/webfonts/fa-regular-400.woff2) format("woff2"), url(https://dhillonpaving.ca/beta/wp-content/themes/dhillonpaving/webfonts/fa-regular-400.woff) format("woff"), url(https://dhillonpaving.ca/beta/wp-content/themes/dhillonpaving/webfonts/fa-regular-400.ttf) format("truetype"), url(https://dhillonpaving.ca/beta/wp-content/themes/dhillonpaving/webfonts/fa-regular-400.svg#fontawesome) format("svg");
+}
+
+@font-face {
+    font-family: "Font Awesome 5 Pro";
+    font-style: normal;
+    font-weight: 900;
+    font-display: auto;
+    src: url(https://dhillonpaving.ca/beta/wp-content/themes/dhillonpaving/webfonts/fa-solid-900.eot);
+    src: url(https://dhillonpaving.ca/beta/wp-content/themes/dhillonpaving/webfonts/fa-solid-900.eot#iefix) format("embedded-opentype"), url(https://dhillonpaving.ca/beta/wp-content/themes/dhillonpaving/webfonts/fa-solid-900.woff2) format("woff2"), url(https://dhillonpaving.ca/beta/wp-content/themes/dhillonpaving/webfonts/fa-solid-900.woff) format("woff"), url(https://dhillonpaving.ca/beta/wp-content/themes/dhillonpaving/webfonts/fa-solid-900.ttf) format("truetype"), url(https://dhillonpaving.ca/beta/wp-content/themes/dhillonpaving/webfonts/fa-solid-900.svg#fontawesome) format("svg");
+}
